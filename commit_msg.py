@@ -39,6 +39,7 @@ def main():
 
 
 def abort(commit_msg: str):
+    print()
     print("Invalid commit msg!")
     print(commit_msg)
     print("Aborting...")
