@@ -64,5 +64,5 @@ def validate_subject(subject: str) -> bool:
     return bool(result)
 
 
-if __name__ == "__main__":
+if __name__ == "__main__":  # pragma: no cover
     main()
